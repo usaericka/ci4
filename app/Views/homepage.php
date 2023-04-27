@@ -1,4 +1,6 @@
-<!-- CONTENT -->
+<?= $this->extend('layouts/frontend.php') ?>
+
+<?= $this->section('content') ?>
 
 <section>
     <div class="background-image mt-1">
@@ -18,3 +20,8 @@
     </div>
 </section>
 
+<div class="container-fluid bg-footer mt-1 text-end">
+        <a href="/contact/create" class="btn text-light fw-bold text-uppercase fs-4">Contact Me</a>
+</div>
+
+<?= $this->endSection() ?>

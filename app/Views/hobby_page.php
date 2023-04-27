@@ -1,3 +1,7 @@
+<?= $this->extend('layouts/frontend.php') ?>
+
+<?= $this->section('content') ?>
+    
     <!--First Slideshow-->
 <div class="container-fluid bg-custom mt-1" style="height: 25px">
     <p class="text-center text-white fw-bold">Playing Games</p>
@@ -89,3 +93,4 @@
 </div>  
     <div class="container-fluid bg-bottom mt-1" style="height: 25px"></div> 
 
+<?= $this->endSection() ?>

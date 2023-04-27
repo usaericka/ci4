@@ -1,3 +1,7 @@
+<?= $this->extend('layouts/frontend.php') ?>
+
+<?= $this->section('content') ?>
+
 <div class="container-fluid bg-custom mt-1">
       <div class="row py-3" style="height:280px">
         <div class="col">  
@@ -93,3 +97,5 @@
           </div>
           <br><a class="text-white" href="/about">Back to top</a>
         </div>
+
+        <?= $this->endSection() ?>

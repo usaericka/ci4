@@ -10,9 +10,9 @@ a.nav-link {
 
 .background-image {
     padding-top: 9em;
-    height: 150px;
-    background-image: url("../images/mountain.jpeg");
-    background-size: cover;
+    height: 470px;
+    background-image:  url("../images/mountain.jpeg");
+    background-size:cover;
 }
 
 .bg-footer {
@@ -102,3 +102,5 @@ a:link {
     color: #ffffff;
     font-weight: normal;
 }
+
+

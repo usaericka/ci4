@@ -31,6 +31,15 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$routes->get('/contact', 'FeedbackController::index');
+$routes->get('/contact/create', 'FeedbackController::create');
+$routes->post('/contact/add', 'FeedbackController::store');
+
+$routes->get('contact/edit/(:num)', 'FeedbackController::edit/$1');
+$routes->put('contact/update/(:num)', 'FeedbackController::update/$1'); 
+$routes->get('contact/delete/(:num)', 'FeedbackController::delete/$1');
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -6,14 +6,12 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('/templates/header');
-        echo view('home');
-        echo view('/templates/footer');
+        $data = [
+            'meta_title' => 'Homepage',
+        ];
+        return view('homepage', $data);
     }
 
-    public function contact()
-    {
-        echo view('/templates/headerc');
-        return view('contact');
-    }
+
 }
+

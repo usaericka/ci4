@@ -6,7 +6,9 @@ class Hobby extends BaseController
 {
     public function index()
     {
-        echo view('/templates/header');
-        return view('hobby_page');
+        $data = [
+            'meta_title' => 'About Me',
+        ];
+        return view('hobby_page' , $data);
     }
 }

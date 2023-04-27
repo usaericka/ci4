@@ -6,8 +6,10 @@ class About extends BaseController
 {
     public function index()
     {
-        echo view('/templates/header');
-        return view('about_page');
+        $data = [
+            'meta_title' => 'About Me',
+        ];
+        return view('about_page', $data);
     }
 
 }
