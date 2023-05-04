@@ -15,6 +15,5 @@
     </div>
 
 <script src="<?= base_url('assets/scripts/bootstrap.bundle.min.js'); ?>"></script>
-<script src="<?= base_url('assets/scripts/script.js');?>"></script>
 </body>
 </html>

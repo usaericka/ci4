@@ -38,6 +38,9 @@ class FeedbackController extends BaseController
 
     public function edit($id = null)
     {
+        $data = [
+            'title' => 'Edit Page',
+        ];
         $feedback = new FeedbackModel();
         $data['feedback'] = $feedback->find($id);
         return view('contact/edit', $data); 

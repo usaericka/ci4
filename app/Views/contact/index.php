@@ -41,7 +41,7 @@
                                     <td><?= $row['email']; ?></td>
                                     <td><?= $row['message']; ?></td>
                                    
-                                    <td><a href="<?=base_url('contact/view/'.$row['id']) ?>" class="btn btn-primary btn-sm">VIEW</a></td>
+                                    <td><a href="<?=base_url('view_details/'.$row['id']) ?>" class="btn btn-primary btn-sm">VIEW</a></td>
                                     <td><a href="<?=base_url('contact/edit/'.$row['id']) ?>" class="btn btn-success btn-sm">EDIT</a></td>
                                     <td><a href="<?=base_url('contact/delete/'.$row['id']) ?>" class="btn btn-danger btn-sm">DELETE</a></td>
                                     
