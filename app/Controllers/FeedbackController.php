@@ -64,5 +64,15 @@ class FeedbackController extends BaseController
         $feedback->delete($id);
         return redirect()->back()->with('status', 'Deleted Successfully');
     }
+
+    public function edit1($id = null)
+    {
+        $data = [
+            'title' => 'View Page',
+        ];
+        $feedback = new FeedbackModel();
+        $data['feedback'] = $feedback->find($id);
+        return view('contact/view_page', $data); 
+    }
 }
  

@@ -1,5 +1,4 @@
 <?= $this->extend('layouts/formbase.php') ?>
-
 <?= $this->section('content') ?>
 
 
@@ -15,7 +14,7 @@
             <div class="row mb-5">
                <label class="col-sm-2 col-form-label">Name</label>
                <div class="col-sm-10">
-                  <input type="form-text" class="form-control " name="name" value="<?=$feedback['name']; ?>" required>
+                  <input type="form-text" class="form-control" name="name" value="<?=$feedback['name']; ?>" required>
                </div>
             </div>
 

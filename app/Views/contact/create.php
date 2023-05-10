@@ -1,5 +1,4 @@
 <?= $this->extend('layouts/formbase.php') ?>
-
 <?= $this->section('content') ?>
 
 
@@ -31,12 +30,12 @@
                </div>
             </div>
             <div class="text-center mt-5 py-1">
-               <button type="submit" class="btn border-white text-white mx-1">SUBMIT</button>
+               <button type="submit" class="btn border-white fw-bold text-white mx-1">SUBMIT</button>
             </div>
          </div>
       </form>
    </div>
    <div class="container-fluid bg-bottom py-3"></div>
 
-   <?= $this->endSection() ?>
+<?= $this->endSection() ?>
   

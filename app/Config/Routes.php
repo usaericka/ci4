@@ -38,6 +38,8 @@ $routes->post('/contact/add', 'FeedbackController::store');
 $routes->get('contact/edit/(:num)', 'FeedbackController::edit/$1');
 $routes->put('contact/update/(:num)', 'FeedbackController::update/$1'); 
 $routes->get('contact/delete/(:num)', 'FeedbackController::delete/$1');
+$routes->get('contact/view_page/(:num)', 'FeedbackController::edit1/$1');
+
 
 
 
